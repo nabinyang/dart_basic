@@ -11,7 +11,7 @@ extends 대신에 implements를 쓰면 되는데
 함수, 매개변수만 지정하는 추상 클래스 (abstract)도 있다
 자식 클래스는 implements를 써주면 된다
 인스턴스화?가 필요없을 때 쓴다
-지금은 잘 몰라도 됨
+지금은 잘 몰라도 됨!
 */
 
 class Animal {
