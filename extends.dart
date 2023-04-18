@@ -34,7 +34,7 @@ class Cat extends Animal {
     print('$catName, hi');
   }
 
-  // 부모클래스에 있는 메서드 덮어쓸 수 있음!
+  // 부모클래스에 있는 메서드 덮어쓸 수 있음
   @override
   void sayIam() {
     print('I\'m $species');
