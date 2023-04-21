@@ -1,27 +1,15 @@
-class Food {
-  final String foodType;
+class Youtuber {
+  final name;
 
-  Food({required this.foodType});
+  Youtuber({required this.name});
 
-  void sayFoodType() {
-    print('This food type is $foodType.');
-  }
-}
-
-class Snack extends Food {
-  final String name;
-  final String brand;
-
-  Snack({required super.foodType, required this.name, required this.brand});
-
-  void sayIntroduce() {
-    print('This is $brand\'s $name.');
+  void sayName() {
+    print('$name');
   }
 }
 
 void main() {
-  Snack ccobook = Snack(foodType: 'snack', name: '꼬북칩', brand: '오리온');
+  Youtuber youngji = Youtuber(name: 'youngji');
 
-  ccobook.sayIntroduce();
-  ccobook.sayFoodType();
+  youngji.sayName();
 }
